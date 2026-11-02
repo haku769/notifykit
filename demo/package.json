@@ -1,0 +1,14 @@
+{
+  "name": "notifykit-demo-loja",
+  "private": true,
+  "description": "Projeto cliente de exemplo: uma loja virtual que instala e usa a notifykit.",
+  "scripts": {
+    "start": "tsx app.ts"
+  },
+  "dependencies": {
+    "notifykit": "github:haku769/notifykit"
+  },
+  "devDependencies": {
+    "tsx": "4.19.2"
+  }
+}

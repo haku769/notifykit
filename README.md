@@ -393,6 +393,7 @@ src/
 ├── Notifier.ts     # Facade
 └── index.ts        # API pública
 examples/           # Uso padrão e uso estendido
+demo/               # Projeto cliente que instala a lib pelo GitHub
 test/               # Testes automatizados (node:test)
 ```
 
@@ -418,6 +419,15 @@ npm run example:basic   # exemplo de uso padrão
 
 ```bash
 npm run example:custom  # exemplo estendendo a lib
+```
+
+### Projeto cliente de demonstração
+
+A pasta [`demo/`](demo/) é uma loja virtual fictícia que instala a `notifykit` pelo GitHub,
+como um desenvolvedor de fora faria. Ela mostra o uso padrão e um canal do Discord criado pelo cliente.
+
+```bash
+cd demo && npm install && npm start
 ```
 
 ## Licença
