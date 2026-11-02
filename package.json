@@ -4,6 +4,7 @@
   "description": "Biblioteca TypeScript para envio de notificações multicanal, extensível via Design Patterns.",
   "main": "dist/index.js",
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc",
     "test": "node --import tsx --test test/*.test.ts",
     "example:basic": "tsx examples/01-uso-padrao.ts",
